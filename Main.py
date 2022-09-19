@@ -4,7 +4,7 @@ def	init (self, data): self.data = data self.next = None
 
 
 class Stack:
-def	init (self): self.head = None
+def	__init__ (self): self.head = None
 
 def push(self, data) -> None: # Write your code here new_node = Node(data) new_node.next = self.head self.head = new_node
 
